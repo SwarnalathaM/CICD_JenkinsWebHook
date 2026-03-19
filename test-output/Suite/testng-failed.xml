@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="classes" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="1" parallel="classes" name="Test(failed)">
+    <classes>
+      <class name="sampleTest">
+        <methods>
+          <include name="getURLEdge1"/>
+          <include name="getBrowserName"/>
+          <include name="getURLEdge2"/>
+        </methods>
+      </class> <!-- sampleTest -->
+      <class name="sampleTest2">
+        <methods>
+          <include name="getURLChrome2"/>
+          <include name="getURLChrome1"/>
+        </methods>
+      </class> <!-- sampleTest2 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
