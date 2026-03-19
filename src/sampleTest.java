@@ -36,6 +36,7 @@ public class sampleTest {
 		
 		driver.get("https://rahulshettyacademy.com/");
 		System.out.println(driver.getTitle()+ " from "+browsername);
+System.out.println("First site title");
 		driver.close();
 		}
 	@Test
@@ -43,6 +44,7 @@ public class sampleTest {
 //		public static void main(String[] args) {
 			driver.get("https://google.com/");
 			System.out.println(driver.getTitle() + " from "+browsername);
+System.out.println("Second site title");
 			driver.close();
 			}
 }
