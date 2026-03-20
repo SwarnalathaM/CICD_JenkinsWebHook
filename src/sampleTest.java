@@ -37,6 +37,7 @@ public class sampleTest {
 		driver.get("https://rahulshettyacademy.com/");
 		System.out.println(driver.getTitle()+ " from "+browsername);
 System.out.println("First site title");
+System.out.println(" in develop2 branch");
 		driver.close();
 		}
 	@Test
@@ -45,6 +46,7 @@ System.out.println("First site title");
 			driver.get("https://google.com/");
 			System.out.println(driver.getTitle() + " from "+browsername);
 System.out.println("Second site title");
+System.out.println(" in develop2 branch");
 			driver.close();
 			}
 }
