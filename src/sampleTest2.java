@@ -10,6 +10,7 @@ public class sampleTest2 {
 			driver.get("https://rahulshettyacademy.com/");
 			System.out.println(driver.getTitle()+ " from Firefox");
 System.out.println("Firefox in test 2");
+System.out.println("in develop2 branch");
 			driver.close();
 			}
 	@Test
@@ -18,7 +19,7 @@ System.out.println("Firefox in test 2");
 			WebDriver driver=new FirefoxDriver();
 			driver.get("https://google.com/");
 			System.out.println(driver.getTitle()+ " from Firefox");
-System.out.println("Firefox in test 2");
+System.out.println("Firefox in test 2 in develop2 branch");
 			driver.close();
 			}
 }
