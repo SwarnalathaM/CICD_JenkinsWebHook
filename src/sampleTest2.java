@@ -9,6 +9,7 @@ public class sampleTest2 {
 			WebDriver driver=new FirefoxDriver();
 			driver.get("https://rahulshettyacademy.com/");
 			System.out.println(driver.getTitle()+ " from Firefox");
+System.out.println("Firefox in test 2");
 			driver.close();
 			}
 	@Test
@@ -17,6 +18,7 @@ public class sampleTest2 {
 			WebDriver driver=new FirefoxDriver();
 			driver.get("https://google.com/");
 			System.out.println(driver.getTitle()+ " from Firefox");
+System.out.println("Firefox in test 2");
 			driver.close();
 			}
 }
