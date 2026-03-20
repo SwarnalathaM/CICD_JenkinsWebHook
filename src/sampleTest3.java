@@ -10,6 +10,7 @@ public class sampleTest3 {
 			driver.get("https://rahulshettyacademy.com/");
 			System.out.println(driver.getTitle()+ " from Edge");
 System.out.println("Edge in test 3");
+System.out.println("in develop3 branch");
 			driver.close();
 			}
 	@Test
@@ -19,6 +20,7 @@ System.out.println("Edge in test 3");
 			driver.get("https://google.com/");
 			System.out.println(driver.getTitle()+ " from Edge");
 System.out.println("Edge in test 3");
+System.out.println("in develop3 branch");
 			driver.close();
 			}
 }
